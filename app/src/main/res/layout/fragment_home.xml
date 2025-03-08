@@ -65,7 +65,7 @@
         app:strokeColor="@color/black"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:backgroundTint="@color/material_dynamic_neutral80"
+        android:backgroundTint="#C5C7C9"
         android:layout_marginTop="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

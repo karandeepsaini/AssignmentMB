@@ -35,7 +35,6 @@
         android:id="@+id/spinnerPaymentType"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:background="@drawable/spinner_shape"
         android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="10dp"

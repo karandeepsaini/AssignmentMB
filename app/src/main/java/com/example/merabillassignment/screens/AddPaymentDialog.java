@@ -49,6 +49,10 @@ public class AddPaymentDialog extends DialogFragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        int sdkVersion = android.os.Build.VERSION.SDK_INT;
+        if (sdkVersion >= 23) {
+            binding.spinnerPaymentType.setBackgroundResource(R.drawable.spinner_shape);
+        }
         mainViewmodel = new ViewModelProvider(requireActivity()).get(MainViewmodel.class);
 
 
